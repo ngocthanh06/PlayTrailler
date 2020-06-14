@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="/css/main.css">
   <title>Movie Trailler App</title>
+  @livewireStyles
 </head>
 <body class="font-sans bg-gray-900 text-white">
 
@@ -28,13 +29,7 @@
         </li>
       </ul>
       <div class="flex flex-col md:flex-row items-center">
-        <div class="relative mt-3 md:mt-0">
-          <input type="text" class="bg-gray-800 rounded-full w64 pl-8 px-4 py-1 
-          focus:outline-none focus:shadow-outline" placeholder="Search">
-          <div class="absolute top-0">
-            <svg class="fill-current w-4 text-gray-500 mt-2 ml-2" viewBox="0 0 24 24"><path class="heroicon-ui" d="M16.32 14.9l5.39 5.4a1 1 0 01-1.42 1.4l-5.38-5.38a8 8 0 111.41-1.41zM10 16a6 6 0 100-12 6 6 0 000 12z"/></svg>
-          </div>
-        </div>
+        <livewire:search-dropdown/>
         <div class="md:ml-4 mt-3 md:mt-0">
           <a href="#">
             <img src="/img/avatar.jpg" alt="avatar" class="rounded-full w-8 h-8">
@@ -45,10 +40,14 @@
   </nav>
 
   @yield('content')
-  <footer class="border border-t border-gray-800">
-    <div class="container mx-auto text-sm px-4 py-6">
+  <footer class="flex border border-t border-gray-800">
+    <div class="flex-initial container mx-auto text-sm px-4 py-6">
         Powered by <a href="https://www.themoviedb.org/documentation/api" class="underline hover:text-gray-300">TMDb API</a>
     </div>
+    <div class="flex-initial container mx-auto text-sm px-4 py-6">
+      Powered by <a href="https://www.themoviedb.org/documentation/api" class="underline hover:text-gray-300">TMDb API</a>
+  </div>
 </footer>
+  @livewireScripts
 </body>
 </html>
