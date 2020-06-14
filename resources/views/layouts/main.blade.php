@@ -25,7 +25,7 @@
           <a href="#" class="hover:text-gray-300">TV Shows</a>
         </li>
         <li class="md:ml-6 mt-3 md:mt-0">
-          <a href="#" class="hover:text-gray-300">Actor</a>
+          <a href="{{route('actors.index')}}" class="hover:text-gray-300">Actor</a>
         </li>
       </ul>
       <div class="flex flex-col md:flex-row items-center">
@@ -39,14 +39,15 @@
     </div>
   </nav>
   @yield('content')
+  @yield('scripts')
   <footer class="flex border border-t border-gray-800">
     <div class="flex-initial container mx-auto text-sm px-4 py-6">
         Powered by <a href="https://www.themoviedb.org/documentation/api" class="underline hover:text-gray-300">TMDb API</a>
     </div>
     <div class="flex-initial container mx-auto text-sm px-4 py-6">
-      Powered by <a href="https://www.themoviedb.org/documentation/api" class="underline hover:text-gray-300">TMDb API</a>
-  </div>
-</footer>
+      Author by <a href="https://ngocthanh06.herokuapp.com/" class="underline hover:text-gray-300">ngocthanh06</a>
+    </div>
+  </footer>
   @livewireScripts
 </body>
 </html>
