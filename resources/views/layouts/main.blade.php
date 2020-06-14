@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="/css/main.css">
   <title>Movie Trailler App</title>
   @livewireStyles
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
 </head>
 <body class="font-sans bg-gray-900 text-white">
-
   <nav class="border-b border-gray-800">
     <div class="container px-4 mx-auto flex flex-col md:flex-row items-center justify-between px-4 py-6">
       <ul class="flex flex-col md:flex-row items-center ">
@@ -38,7 +38,6 @@
       </div>
     </div>
   </nav>
-
   @yield('content')
   <footer class="flex border border-t border-gray-800">
     <div class="flex-initial container mx-auto text-sm px-4 py-6">
