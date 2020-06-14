@@ -32,7 +32,9 @@
         <livewire:search-dropdown/>
         <div class="md:ml-4 mt-3 md:mt-0">
           <a href="#">
-            <img src="{{asset('/img/avatar.jpg')}}" alt="avatar" class="rounded-full w-8 h-8">
+            {{-- <img src="{{asset('/img/avatar.jpg')}}" alt="avatar" class="rounded-full w-8 h-8"> --}}
+            <img src=" https://scontent.fdad3-1.fna.fbcdn.net/v/t1.0-9/83058933_1095944647415159_5624263973374263296_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=X6zD2Py9kygAX-INlNL&_nc_ht=scontent.fdad3-1.fna&oh=1b80f859648b4ce2541142f9b7ab8122&oe=5F0C7C74" alt="avatar" class="rounded-full w-8 h-8">
+           
           </a>
         </div>
       </div>
