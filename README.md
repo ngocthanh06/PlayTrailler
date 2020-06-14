@@ -20,4 +20,4 @@ Trailer Movie provides you with the information of the movie you're looking for.
 6. ``` php artisan serve ``` or use Laravel Valet or Laravel Homestead
 7. Visit ``` localhost:8000 ``` in your browser
 
-Demo Url : [here](https://traillermovie.herokuapp.com/movies/419704)
+Demo Url : [here](https://traillermovie.herokuapp.com)
